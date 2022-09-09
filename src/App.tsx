@@ -11,7 +11,7 @@ function App(): JSX.Element {
             </header>
             <p>
                 Edit <code>src/App.tsx</code> and save. This page will
-                automatically reload.
+                automatically reload.s
             </p>
             <p> Hongbo Wang </p>
             <p> Hello World </p>
@@ -24,9 +24,9 @@ function App(): JSX.Element {
             <div>
                 Ordered List:
                 <ol>
-                    <li>First thing</li>
-                    <li>Another thing</li>
-                    <li>A third item</li>
+                    <li>First element</li>
+                    <li>Second element</li>
+                    <li>Third element</li>
                 </ol>
             </div>
             <div>
