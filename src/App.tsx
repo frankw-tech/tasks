@@ -48,15 +48,11 @@ function App(): JSX.Element {
                                     background: "red"
                                 }}
                             >
-                                text
+                                Text
                             </div>
                         </Col>
                         <Col>
-                            <p>
-                                Second column. You can put whatever you want in
-                                here, and it will be on the right side. Maybe
-                                try adding an image?
-                            </p>
+                            <p>Second column.</p>
                             <div
                                 style={{
                                     border: "1px solid blue",
@@ -66,7 +62,7 @@ function App(): JSX.Element {
                                     background: "red"
                                 }}
                             >
-                                text
+                                Text
                             </div>
                         </Col>
                     </Row>
