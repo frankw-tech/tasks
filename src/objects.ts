@@ -90,7 +90,6 @@ export function toShortForm(question: Question): string {
  * Check the unit tests for more examples of what this looks like!
  */
 export function toMarkdown(question: Question): string {
-    //console.log("start question" + question.type);
     if (question.type === "multiple_choice_question") {
         const addDash = question.options.map(
             (option: string): string => "- " + option
@@ -99,14 +98,10 @@ export function toMarkdown(question: Question): string {
             ["# " + question.name, question.body].join("\n") +
             "\n" +
             addDash.join("\n");
-        //console.log("text: " + merge);
         return merge;
     } else {
         return ["# " + question.name, question.body].join("\n");
     }
-    // else (question.name === "multiple_choice_question") {
-    //     return question.options.join("\n");
-    // }
 }
 
 /**
