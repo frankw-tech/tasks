@@ -173,5 +173,4 @@ export function mergeQuestion(
         ...{ points },
         published: false
     };
-    return contentQuestion;
 }
