@@ -1,5 +1,5 @@
-import { urlToHttpOptions } from "url";
-import { isQuestion } from "./functions";
+// import { urlToHttpOptions } from "url";
+// import { isQuestion } from "./functions";
 import { Question, QuestionType } from "./interfaces/question";
 
 /**
