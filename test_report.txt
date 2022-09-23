@@ -19,7 +19,7 @@ All files       |   98.98 |    97.77 |     100 |   98.92 |
   App.tsx       |     100 |      100 |     100 |     100 |                   
   arrays.ts     |     100 |      100 |     100 |     100 |                   
   functions.ts  |     100 |      100 |     100 |     100 |                   
-  objects.ts    |   95.65 |     87.5 |     100 |   95.65 | 60                
+  objects.ts    |   95.65 |     87.5 |     100 |   95.65 | 58                
  src/interfaces |       0 |        0 |       0 |       0 |                   
   question.ts   |       0 |        0 |       0 |       0 |                   
 ----------------|---------|----------|---------|---------|-------------------
@@ -27,5 +27,5 @@ All files       |   98.98 |    97.77 |     100 |   98.92 |
 Test Suites: 6 passed, 6 total
 Tests:       33 passed, 33 total
 Snapshots:   0 total
-Time:        4.198 s
+Time:        5.534 s
 Ran all test suites.
