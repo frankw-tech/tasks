@@ -273,7 +273,7 @@ export function editOption(
         const targetIndex = newQuestions.findIndex(
             (question: Question): boolean => question.id === targetId
         );
-        // test
+
         // console.log("targetIndex: " + targetIndex);
         // console.log("targetOptionIndex: " + targetOptionIndex);
         // console.log("original options: " + newQuestions[targetIndex].options);
