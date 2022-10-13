@@ -14,18 +14,31 @@ export function ChooseTeam(): JSX.Element {
     const [allOptions, setAllOptions] = useState<string[]>(PEOPLE);
     const [team, setTeam] = useState<string[]>([]);
 
-    function chooseMember() {
+    // Add newMember: string as parameter of chooseMember function
+    function chooseMember(newMember: string) {
+        // No detection of changed value, reference equality
+        // VERY BAD!!!
         /*
         if (!team.includes(newMember)) {
             team.push(newMember);
         }
         */
+
+        if (!team.includes(newMember)) {
+            setTeam([...team, newMember]);
+        }
     }
 
     function clearTeam() {
+        // No detection of changed value, reference equality
+        // VERY BAD!!!
         /*
         team = [];
         */
+
+        setTeam([]);
+        // const newTeam: string[] = [];
+        // setTeam(newTeam);
     }
 
     return (
@@ -36,7 +49,13 @@ export function ChooseTeam(): JSX.Element {
                     {allOptions.map((option: string) => (
                         <div key={option} style={{ marginBottom: "4px" }}>
                             Add{" "}
-                            <Button onClick={chooseMember} size="sm">
+                            {/* <Button onClick={chooseMember} size="sm">
+                                {option}
+                            </Button> */}
+                            <Button
+                                onClick={() => chooseMember(option)}
+                                size="sm"
+                            >
                                 {option}
                             </Button>
                         </div>
