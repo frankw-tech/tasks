@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Button } from "react-bootstrap";
-import { dhValue, setDhValue } from "./DoubleHalfState";
+// Reomove import from './DoubleHalfState'
+// import { dhValue, setDhValue } from "./DoubleHalfState";
 
 // function Doubler(): JSX.Element {
 //     return <Button onClick={() => setDhValue(2 * dhValue)}>Double</Button>;
